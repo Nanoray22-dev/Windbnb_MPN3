@@ -11,7 +11,7 @@ const Header = () => {
 
   return (
     <>
-      <div className='flex flex-col md:flex-row justify-between m-4 bg-[#fff]'>
+      <div className='flex flex-col md:flex-row justify-between m-4 bg-[#fff] '>
         <a
           href='https://github.com/Nanoray22-dev/Windbnb_MPN3'
           className='p-3'
@@ -20,9 +20,10 @@ const Header = () => {
         </a>
 
         <div
-          onMouseOver={openSubMenu}
-          className='flex   transition  rounded-2xl border-0 m-1 shadow-md hover:shadow-none focus:shadow-none'
+          onClick={openSubMenu}
+          className='flex   transition  rounded-2xl border-1  m-1 shadow-xl hover:shadow-none focus:shadow-none'
         >
+          
           <input
             className=' md:w-36 border-r-2 hover:w-full w-full outline-none  p-3 text-[#000] '
             type='text'
@@ -38,6 +39,9 @@ const Header = () => {
           <button className='flex  md:w-full justify-start outline-none  p-3  text-[#eb5757]'>
             <i className='material-icons'>search</i>
           </button>
+          {/* <div className="overflow bg-black h-screen w-full absolute opacity-60 overflow-hidden">
+
+                </div>  */}
         </div>
       </div>
       {isSubMenuOpen && <Submenus items={items} />}

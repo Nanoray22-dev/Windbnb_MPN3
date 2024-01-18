@@ -18,9 +18,9 @@ const FormInput = ({ city, setCity, guestsNumber }) => {
     <>
       <form
         onSubmit={submitHandler}
-        className='grid transition md:grid-cols-3 rounded-2xl grid-cols-1 border-0 sm:my-auto '
+        className='flex justify-center px-32 '
       >
-        <div className='w-[90%] md:border-2 md:rounded-[14px] border-2 border-b-0 rounded-t-[14px] text-[#000] outline-none md:m-4 px-[1rem] py-2 sm:mb-0 sm:ml-4'>
+        <div className='w-[90%] md:border-2 md:rounded-[14px] border-2 border-black rounded-t-[14px] text-[#000] outline-none md:m-4 px-[1rem] py-2 sm:mb-0 sm:ml-4'>
           <label
             htmlFor='city'
             className='text-[#000] text-[16px] uppercase font-medium'
@@ -28,7 +28,7 @@ const FormInput = ({ city, setCity, guestsNumber }) => {
             Location
           </label>
           <input
-            className='w-[100%] border-0 text-[#000] outline-none '
+            className='w-[100%] border-0 text-[#000] outline-none  '
             type='text'
             placeholder='Helsinki, Finland'
             onClick={openSubMenuCityLinks}
@@ -38,7 +38,7 @@ const FormInput = ({ city, setCity, guestsNumber }) => {
           />
         </div>
 
-        <div className='w-[90%] md:border-2 md:rounded-[14px] border-2 text-[#000] outline-none md:m-4 sm:ml-4 sm:mb-4 px-[1rem] rounded-t-none rounded-b-[14px] py-2 sm:border-t-2'>
+        <div className='w-[90%] md:border-2 md:rounded-[14px] border-2 border-black text-[#000] outline-none md:m-4 sm:ml-4 sm:mb-4 px-[1rem] rounded-t-none rounded-b-[14px] py-2 sm:border-t-2'>
           <label
             htmlFor='guest'
             className='text-[#000] text-[16px] uppercase font-medium'
