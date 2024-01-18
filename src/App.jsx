@@ -11,12 +11,12 @@ function App() {
         <footer className='m-4 text-center'>
           created by-{' '}
           <a
-            href='https://github.com/jyotip101/windbnb-project-in-react'
+            href='https://github.com/Nanoray22-dev/Windbnb_MPN3'
             className='text-[#eb5757]  underline hover:no-underline hover:transition-al'
             target='_blank'
             rel='noopener noreferrer'
           >
-            jyoti-p
+            Raysell
           </a>{' '}
           -devChallenges.io
         </footer>
