@@ -17,7 +17,7 @@ const SingleCard = ({ item }) => {
           )}
 
           <p className='mr-2 text-[#828282] '>
-            {type} {beds !== null && `. ${beds} beds`}
+            {type} {beds !== null && `${beds} beds`}
           </p>
         </div>
         <p className='ml-1 flex justify-center p-1 text-[#4F4F4F]'>

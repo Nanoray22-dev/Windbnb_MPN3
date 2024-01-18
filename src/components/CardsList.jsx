@@ -8,8 +8,8 @@ const CardsList = () => {
   return (
     <div className='m-5' onMouseOver={closeSubMenu}>
       <div className='flex flex-row justify-between my-4'>
-        <h1>Stays in Finland</h1>
-        <p>{data.length}+ stays</p>
+        <h1 className=' font-bold text-2xl'>Stays in Finland</h1>
+        <p className='font-bold text-2xl'>{data.length}+ stays</p>
       </div>
 
       <div className='flex flex-wrap  md:justify-around justify-center'>

@@ -13,10 +13,10 @@ const Header = () => {
     <>
       <div className='flex flex-col md:flex-row justify-between m-4 bg-[#fff]'>
         <a
-          href='https://jyotip101.github.io/windbnb-project-in-react/'
+          href='https://github.com/Nanoray22-dev/Windbnb_MPN3'
           className='p-3'
         >
-          <img src={logo} alt='logo' />
+          <img src={logo} alt='logo'  className='w-32'/>
         </a>
 
         <div
